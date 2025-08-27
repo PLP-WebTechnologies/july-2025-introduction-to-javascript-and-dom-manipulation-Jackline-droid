@@ -60,7 +60,7 @@ while (count > 0) {
 // DOM Interaction 1: Change background color on click
 document.getElementById("colorBtn").addEventListener("click", function () {
   document.body.style.backgroundColor = 
-    document.body.style.backgroundColor === "lightblue" ? "white" : "lightblue";
+    document.body.style.backgroundColor === "lightskyblue" ? "white" : "lightskyblue";
 });
 
 // DOM Interaction 2: Toggle visibility of text
