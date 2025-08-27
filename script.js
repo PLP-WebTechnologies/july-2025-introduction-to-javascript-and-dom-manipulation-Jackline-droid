@@ -53,6 +53,21 @@ while (count > 0) {
   count--;
 }
 
+// Example 3: forEach loop (array iteration)
+const fruits = ["Apple", "Banana", "Mango", "Orange", "Pineapple"];
+
+function showFruits() {
+  const list = document.getElementById("loopList");
+  list.innerHTML = ""; // clear old items
+
+  fruits.forEach(function(fruit, index) {
+    const li = document.createElement("li");
+    li.textContent = `${index + 1}. ${fruit}`;
+    list.appendChild(li);
+  });
+}
+
+
 // =======================
 // Part 4: DOM Manipulation
 // =======================
